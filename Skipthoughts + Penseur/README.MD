@@ -1,0 +1,1 @@
+The SkipThoughts model is an unsupervised learning model used for generic, distributed sentence encodings [24]. The SkipThoughts model also features vocabulary expansion which allows for a way to encode words not found in the training data into the vector space, making it very extensible.
