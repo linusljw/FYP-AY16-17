@@ -13,7 +13,7 @@ class MySentences(object):
                 yield line.split()
 
 
-sentences = gensim.models.word2vec.LineSentence('/home/linus/Desktop/model/train2.txt')
+sentences = gensim.models.word2vec.LineSentence('path of file to train')
 
 model = gensim.models.Word2Vec(sentences, size=300)
 
