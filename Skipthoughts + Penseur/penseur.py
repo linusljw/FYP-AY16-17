@@ -159,6 +159,8 @@ class Penseur:
 		plt.title("Flattened data")
 		plt.show()
 
+#The methods below are written by linusljw to automate testing for the recall and MRR retrievals	
+		
 	def get_final(self):
 		result = open('results.txt' , 'a') 
 		with open('input.txt') as input, open('output.txt') as output:
