@@ -17,7 +17,7 @@ Steps needed to train the model:
 5. Put the trained encoding model, dictionary and word2vec files in a folder called **data**.
 6. Change the relevant file locations in the **tools.py** file in the **training** folder.
 7. Place the testing data (in a .pickle format) in the **data** folder.
-8. Loadd the model using Penseur and it will automatically encode the sentences into vectors.
+8. Load the model using Penseur and it will automatically encode the sentences into vectors.
 
 
 
