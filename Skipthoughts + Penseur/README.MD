@@ -10,14 +10,14 @@ The main features of the **SkipThoughts** model are:
 
 Steps needed to train the model:
 
-- 1. Create dictionary from training data
-- 2. Set hyperparameters for training the encoder. Most common parameters used were 300 word dimensionality, 1-2 epochs and 1200 GRU units with a batch size of 64
-- 3. Launch the training. All 3 steps to this point can be accessed from the **training** folder. 
-- 4. Create word2vec model. The script to create the model can be found in the **word2vec** folder.
-- 5. Put the trained encoding model, dictionary and word2vec files in a folder called **data**.
-- 6. Change the relevant file locations in the **tools.py** file in the **training** folder.
-- 7. Place the testing data (in a .pickle format) in the **data** folder.
-- 7. Load the model using Penseur and it will automatically encode the sentences into vectors.
+1. Create dictionary from training data
+2. Set hyperparameters for training the encoder. Most common parameters used were 300 word dimensionality, 1-2 epochs and 1200 GRU units with a batch size of 64
+3. Launch the training. All 3 steps to this point can be accessed from the **training** folder. 
+4. Create word2vec model. The script to create the model can be found in the **word2vec** folder.
+5. Put the trained encoding model, dictionary and word2vec files in a folder called **data**.
+6. Change the relevant file locations in the **tools.py** file in the **training** folder.
+7. Place the testing data (in a .pickle format) in the **data** folder.
+8. Loadd the model using Penseur and it will automatically encode the sentences into vectors.
 
 
 
