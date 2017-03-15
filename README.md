@@ -2,7 +2,7 @@
 
 Final Year Project AY16/17- Paraphrase detection of semantically equivalent text
 
-This repository contains the modified code based off the SkipThoughts and the Siamese C-BOW word embedding models
+This repository contains the modified code based off the SkipThoughts and the Siamese C-BOW word embedding models. Due to their large sizes, no data files will be stored on the repository, only the relevant source codes are available here.
 
 Code referenced from the following papers/sites:
 
