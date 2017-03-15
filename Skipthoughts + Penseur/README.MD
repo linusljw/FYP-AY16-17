@@ -8,7 +8,7 @@ The main features of the **SkipThoughts** model are:
 - Surrounding sentences used to learn sentence vectors
 - Encoder has a bidirectional, unidirectional and combine-skip models (combination of former 2 models)
 
-Steps needed to train the model:
+**Steps needed to train the model:**
 
 1. Create dictionary from training data
 2. Set hyperparameters for training the encoder. Most common parameters used were 300 word dimensionality, 1-2 epochs and 1200 GRU units with a batch size of 64
