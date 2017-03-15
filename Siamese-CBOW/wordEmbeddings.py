@@ -175,7 +175,8 @@ class wordEmbeddings:
            ', '.join(["%s (%f)" % x for x in self.most_similar(self.oVocab.index2word(iIndex), fMinDist=fMinDist)] )
            )
 
-
+#The following methods below were written by linusljw to automate recall and MRR retrievals
+	
   def get_cosine(self):
     cosine_simi = open('cosine.txt' , 'a') 
     with open('input.txt') as input , open('output.txt') as output:
